@@ -1,0 +1,27 @@
+services:
+  app:
+    tty: true
+    image: once_pcdet
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - $HOME/.Xauthority:/root/.Xauthority:ro
+      - ./..:/workspace
+    working_dir: /workspace
+    environment:
+      - DISPLAY=$DISPLAY
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility,video
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    ports:
+      - "6006:6006"
+      - "5678:5678"
+    command: bash

@@ -1,0 +1,13 @@
+services:
+  app:
+    stdin_open: true
+    tty: true
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: 2d_object_detection
+    volumes:
+      - ..:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: tail -f /dev/null

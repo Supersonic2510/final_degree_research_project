@@ -1,0 +1,5 @@
+numpy==1.26.4
+plotly==5.23.0
+matplotlib==3.9.2
+pandas==2.2.2
+notebook==7.2.2
