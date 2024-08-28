@@ -13,7 +13,7 @@ Each subproject has its own set of dependencies and specific instructions. Pleas
 ## Licensing Information
 
 ### Project License
-The entire repository is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). This includes all subprojects unless stated otherwise. For more details, see the [LICENSE](LICENSE) file.
+The entire repository is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). This includes all subprojects unless stated otherwise. For more details, see the [LICENSE](LICENSE.md) file.
 
 ### Third-Party Licenses
 - **YOLOv8 Model (Used in Subproject X)**: Licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).

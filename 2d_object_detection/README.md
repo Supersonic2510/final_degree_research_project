@@ -1,7 +1,7 @@
 ## Licensing Information
 
 ### Project License
-This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). For more details, see the [LICENSE](LICENSE) file.
+This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). For more details, see the [LICENSE](LICENSE.md) file.
 
 ### Third-Party Licenses
 - **YOLOv8 Model:** This project uses the YOLOv8 model, which is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). Any use of this project must comply with the terms of the AGPL-3.0.

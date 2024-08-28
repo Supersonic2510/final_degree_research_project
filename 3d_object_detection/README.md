@@ -91,7 +91,7 @@ python pytorch_export.py --cfg_file cfgs/once_models/voxelnext_ioubranch_large.y
 
 ### Project License
 
-This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). For more details, see the [LICENSE](LICENSE) file.
+This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). For more details, see the [LICENSE](LICENSE.md) file.
 
 ### Third-Party Licenses
 
