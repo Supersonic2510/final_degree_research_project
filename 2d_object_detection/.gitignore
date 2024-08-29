@@ -40,3 +40,5 @@ venv/
 
 # Project directories and files
 data/
+models/
+.ipynb_checkpoints/
