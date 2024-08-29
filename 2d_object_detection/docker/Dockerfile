@@ -21,5 +21,11 @@ RUN apk add --no-cache \
     zlib-dev \
     bash  # Add bash to the container
 
+# Copy requirements.txt to the working directory
+COPY requirements.txt /app/
+
+# Install Python dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
 # Set the default command to run when starting the container
 CMD ["/bin/bash"]
