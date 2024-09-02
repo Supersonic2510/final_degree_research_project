@@ -39,7 +39,10 @@ venv/
 .venv/
 
 # Project directories and files
-data/
-models/
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
 .ipynb_checkpoints/
-results/
+runs/
+YOLOv8/
