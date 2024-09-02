@@ -46,3 +46,4 @@ models/*
 .ipynb_checkpoints/
 runs/
 YOLOv8/
+results/
