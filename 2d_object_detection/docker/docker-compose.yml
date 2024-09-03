@@ -2,14 +2,26 @@ services:
   app:
     stdin_open: true
     tty: true
+    image: yolov8
     build:
       context: ..
       dockerfile: docker/Dockerfile
     container_name: 2d_object_detection
+    shm_size: 16gb
     volumes:
       - ..:/app
     environment:
       - PYTHONUNBUFFERED=1
-    command: tail -f /dev/null
+      - DISPLAY=$DISPLAY
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility,video
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
     ports:
       - "8888:8888"
+    command: tail -f /dev/null
