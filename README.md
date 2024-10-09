@@ -18,12 +18,12 @@ Each subproject has its own set of dependencies and specific instructions. Pleas
 The entire repository is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). This includes all subprojects unless stated otherwise. For more details, see the [LICENSE](LICENSE.md) file.
 
 ### Third-Party Licenses
-- **YOLOv8 Model (Used in 2D Object Detection)**: Licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). More information can be found at [YOLOv8 GitHub Repository](https://github.com/ultralytics/ultralytics).
+- **YOLOv8 Model (Used in 2D Object Detection)**: Licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
 - **Mapillary Traffic Sign Dataset (Used in 2D Object Detection)**: Licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
 - **OpenPCDet Framework (Used in 3D Object Detection)**: Licensed under the Apache License Version 2.0.
 - **VoxelNext Model (Used in 3D Object Detection)**: Licensed under the Apache License Version 2.0.
-- **Manim Community Edition (Used in Manim Animations)**: Licensed under the MIT License. More information can be found at [Manim GitHub Repository](https://github.com/ManimCommunity/manim).
-- **Carla Open Simulator (Used in Real-Time Simulation Visualizer)**: Licensed under the MIT License. More information can be found at [Carla GitHub Repository](https://github.com/carla-simulator/carla).
-- **Flask (Used in Real-Time Simulation Visualizer)**: Licensed under the BSD License. More information can be found at [Flask GitHub Repository](https://github.com/pallets/flask).
+- **Manim Community Edition (Used in Manim Animations)**: Licensed under the MIT License.
+- **Carla Open Simulator (Used in Real-Time Simulation Visualizer)**: Licensed under the MIT License.
+- **Flask (Used in Real-Time Simulation Visualizer)**: Licensed under the BSD License.
 
 Please see the individual `README.md` files within each subproject's directory for more specific licensing and attribution information related to the third-party tools and datasets used.
