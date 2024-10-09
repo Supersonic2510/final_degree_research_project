@@ -1,6 +1,8 @@
 
 # Real-Time Simulation Visualizer with Carla
 
+![Real-Time Simulation GIF](docs/simulation_snippet.gif)
+
 This project utilizes the Carla Open Simulator to test and visualize model performance in real time using a Flask server and Websockets.
 
 ## Overview
