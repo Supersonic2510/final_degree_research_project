@@ -1,6 +1,0 @@
---extra-index-url https://data.pyg.org/whl/torch-2.3.0+cu118.html
-torch-scatter
-torch-sparse
-torch-cluster
-torch-geometric
-scikit-image
