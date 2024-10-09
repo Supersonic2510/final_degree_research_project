@@ -1,6 +1,6 @@
 # Final Degree Project
 
-This repository contains four related subprojects that are part of my final degree project. Each subproject addresses a different aspect of the overall work, and together they form a cohesive whole.
+This repository contains five related subprojects that are part of my final degree project. Each subproject addresses a different aspect of the overall work, and together they form a cohesive whole.
 
 ## Subprojects Overview
 
@@ -8,6 +8,7 @@ This repository contains four related subprojects that are part of my final degr
 2. [**3D Object Detection**](3d_object_detection/README.md): This subproject implements 3D object detection using the VoxelNext architecture, trained on the ONCE dataset, and leverages the OpenPCDet framework.
 3. [**Manim Animations**](manim_animations/README.md): This subproject generates animations for the final thesis presentation using the Manim Community Edition library.
 4. [**Report Plots**](report_plots/README.md): This subproject creates manually generated plots using a combination of Python libraries, showcasing various machine learning concepts and metrics.
+5. [**Real-Time Simulation Visualizer**](real_time_simulation_visualizer/README.md): This subproject utilizes the Carla Open Simulator to test and visualize model performance in real-time using a Flask server and Websockets.
 
 Each subproject has its own set of dependencies and specific instructions. Please refer to the `README.md` files within each subproject's directory for more detailed information.
 
@@ -22,5 +23,7 @@ The entire repository is licensed under the GNU Affero General Public License v3
 - **OpenPCDet Framework (Used in 3D Object Detection)**: Licensed under the Apache License Version 2.0.
 - **VoxelNext Model (Used in 3D Object Detection)**: Licensed under the Apache License Version 2.0.
 - **Manim Community Edition (Used in Manim Animations)**: Licensed under the MIT License. More information can be found at [Manim GitHub Repository](https://github.com/ManimCommunity/manim).
+- **Carla Open Simulator (Used in Real-Time Simulation Visualizer)**: Licensed under the MIT License. More information can be found at [Carla GitHub Repository](https://github.com/carla-simulator/carla).
+- **Flask (Used in Real-Time Simulation Visualizer)**: Licensed under the BSD License. More information can be found at [Flask GitHub Repository](https://github.com/pallets/flask).
 
 Please see the individual `README.md` files within each subproject's directory for more specific licensing and attribution information related to the third-party tools and datasets used.

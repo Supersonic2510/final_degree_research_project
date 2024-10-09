@@ -1,0 +1,42 @@
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# macOS Folder settings
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.TemporaryItems
+.apdisk
+
+# VSCode files
+.vscode/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+.idea/
+
+# Python build and environment files
+**/__pycache__/
+**/build/
+**/egg-info/
+**/dist/
+*.pyc
+venv/
+*.so
+*.yaml
+*.sh
+*.pth
+*.pkl
+*.zip
+*.bin
+.venv/
+
+# Project directories and files
+models/**
